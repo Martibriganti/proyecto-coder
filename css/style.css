@@ -36,7 +36,7 @@ header {
 }
 
 header h1 {
-     font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     font-size: 70px;
 }
 
@@ -51,7 +51,7 @@ header nav ul li {
 
 
 header nav ul li a {
-     font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     text-decoration: none;
     color: black;
     font-size: 20px
@@ -60,10 +60,6 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #b29f86;
 }
-
-/*-----PSEUDO-CLASES-----*/
-
-
 
 
 
@@ -79,7 +75,7 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-.contacto p{
+.contacto p {
     font-family: "Playfair Display", serif;
     font-size: 30px;
     font-style: normal;
@@ -90,7 +86,7 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-.maps{
+.maps {
     padding: 15px;
     display: flex;
     align-items: center;
@@ -389,4 +385,27 @@ footer i:hover {
         width: 80%;
     }
 
+}
+
+@media screen and (max-width:350px) {
+    header {
+        flex-direction: column;
+    }
+
+
+    .hero h2 {
+        font-size: 5px;
+        padding: 2px;
+    }
+
+    .hero p {
+        font-size: 5px;
+        padding: 3px;
+    }
+
+    .proyectoss p {
+        font-size: 10px;
+        flex-direction: column;
+        width: 80%;
+    }
 }
