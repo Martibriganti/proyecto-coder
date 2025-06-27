@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p::selection {
+    background-color: #b29f86;
+
+
+}
+
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+/*-----HEADER-----*/
+header {
+    background-color: #D1CEC9;
+    font-size: 25px;
+}
+
+
+header {
+    background-color: #D1CEC9;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header h1 {
+     font-family: "Playfair Display", serif;
+    font-size: 70px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 5px;
+}
+
+
+header nav ul li a {
+     font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px
+}
+
+header nav ul li a:hover {
+    color: #b29f86;
+}
+
+/*-----PSEUDO-CLASES-----*/
+
+
+
+
+
+/*-----MAIN-----*/
+.contacto h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-style: italic;
+    color: #b29f86;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto p{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maps{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    text-align: center;
+    height: 70vh;
+    background-image: url(../img/mockup-con-libro-y-lapices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    color: #b29f86;
+    padding: 15px;
+    border: 2px solid #b29f86;
+    display: inline-block
+}
+
+.hero p {
+    font-size: 25px;
+    font-style: italic;
+    padding: 15px;
+}
+
+
+
+.proyectoss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+
+.proyectoss div h2 {
+    font-size: 45px;
+    color: #b29f86;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.proyectoss p {
+    font-size: 25px;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.proyectoss img {
+    width: 400px;
+    height: 400px;
+}
+
+.tarjetitas a:hover {
+    background-color: #b29f86;
+}
+
+
+.servicios .tarjetitas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.servicios h2 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background-color: #D1CEC9;
+    width: 100%;
+    padding: 15px;
+}
+
+.servicios div h3 {
+    margin: 5px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.servicios div a {
+    text-decoration: none;
+    color: black;
+    background-color: #D1CEC9;
+    margin: 15px 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.servicios .tarjetitas div {
+    border: 1px solid black;
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.servicios div img {
+    width: 100%;
+    height: 250px;
+}
+
+
+
+/*-----GRIDS----*/
+.destacados {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background-color: #D1CEC9;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 250px;
+
+}
+
+.grid-item {
+    border: solid 1px black;
+    background-color: #b29f86;
+}
+
+.img-1 {
+    grid-row: span 3;
+    grid-column: span 1;
+}
+
+.img-4 {
+    grid-row: span 2;
+}
+
+.img-6 {
+    grid-row: span 2;
+}
+
+.img-3 {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.img-2 {
+    grid-row: span 3;
+}
+
+.img-5 {
+    grid-row: span 2;
+    grid-column: span 2;
+
+}
+
+.grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: #b29f8670;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/*-----FOOTER----*/
+
+footer {
+    background-color: #D1CEC9;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer i {
+    color: black;
+    font-size: 50px;
+    margin: 20px;
+}
+
+footer i:hover {
+    color: #b29f86;
+}
+
+@media screen and (max-width: 1001px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+
+@media screen and (max-width: 893px) {
+    .proyectoss {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .proyectoss img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .hero h2 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width:690px) {
+    .hero h2 {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .hero p {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width: 559px) {
+    .grid-galeria {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:361px) {
+    header {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    .hero p {
+        font-size: 8px;
+        padding: 3px;
+    }
+
+    .proyectoss p {
+        font-size: 15px;
+        flex-direction: column;
+        width: 80%;
+    }
+
+}
