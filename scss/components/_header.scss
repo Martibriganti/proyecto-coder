@@ -1,0 +1,39 @@
+header {
+    background-color: #D1CEC9;
+    font-size: 25px;
+    background-color: #D1CEC9;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 70px;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        li {
+            margin: 5px;
+
+            a {
+                font-family: "Playfair Display", serif;
+                text-decoration: none;
+                color: black;
+
+                font-size: 20px &:hover {
+                    color: #b29f86;
+                }
+            }
+        }
+
+    }
+}

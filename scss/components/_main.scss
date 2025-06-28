@@ -1,0 +1,291 @@
+.hero {
+    text-align: center;
+    height: 70vh;
+    background-image: url(../img/mockup-con-libro-y-lapices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 50px;
+        color: #b29f86;
+        padding: 15px;
+        border: 2px solid #b29f86;
+        display: inline-block
+    }
+
+    p {
+        font-size: 25px;
+        font-style: italic;
+        padding: 15px;
+    }
+}
+
+
+.proyectoss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+    div {
+        h2 {
+            font-size: 45px;
+            color: #b29f86;
+            padding: 5px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            padding: 5px;
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+.servicios {
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        background-color: #D1CEC9;
+        width: 100%;
+        padding: 15px;
+    }
+
+    div {
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            width: 300px;
+            height: 370px;
+            text-align: center;
+            margin: 15px;
+
+            img {
+                width: 100%;
+                height: 250px;
+
+            }
+
+            h3 {
+                margin: 5px;
+                font-size: 25px;
+                padding: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            background-color: #D1CEC9;
+            margin: 15px 15px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        width: 300px;
+        height: 370px;
+        text-align: center;
+        margin: 15px;
+
+        img {
+            width: 100%;
+            height: 250px;
+
+        }
+
+        h3 {
+            margin: 5px;
+            font-size: 25px;
+            padding: 10px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            background-color: #D1CEC9;
+            margin: 15px 15px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    margin: 15px;
+
+    img {
+        width: 100%;
+        height: 250px;
+
+    }
+
+    h3 {
+        margin: 5px;
+        font-size: 25px;
+        padding: 10px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        background-color: #D1CEC9;
+        margin: 15px 15px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+.destacados {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background-color: #D1CEC9;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 250px;
+
+    div {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.grid-item img-1 {
+    img {
+        grid-row: span 3;
+        grid-column: span 1;
+
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: #b29f8670;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.grid-item img-2 {
+    img {
+        grid-row: span 3;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: #b29f8670;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.grid-item img-3 {
+    img {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: #b29f8670;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.grid-item img-4 {
+    img {
+        grid-row: span 2;
+    }
+
+}
+
+h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: #b29f8670;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+
+.grid-item img-5 {
+    img {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: #b29f8670;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.grid-item img-6 {
+    img {
+        grid-row: span 2;
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: #b29f8670;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+}

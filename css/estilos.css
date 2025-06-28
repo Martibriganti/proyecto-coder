@@ -1,0 +1,50 @@
+.hero {
+  text-align: center;
+  height: 70vh;
+  background-image: url(../img/mockup-con-libro-y-lapices.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h2 {
+  font-size: 50px;
+  color: #b29f86;
+  padding: 15px;
+  border: 2px solid #b29f86;
+  display: inline-block;
+}
+.hero p {
+  font-size: 25px;
+  font-style: italic;
+  padding: 15px;
+}
+
+.proyectoss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.proyectoss img {
+  width: 400px;
+  height: 400px;
+}
+.proyectoss div h2 {
+  font-size: 45px;
+  color: #b29f86;
+  padding: 5px;
+  text-align: center;
+}
+.proyectoss div p {
+  font-size: 25px;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
